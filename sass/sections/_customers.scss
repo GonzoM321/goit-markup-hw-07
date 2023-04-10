@@ -1,0 +1,23 @@
+.regular-customers{
+    width: 328px;
+    height: 42px;
+    left: 637px;
+    top: 2401px;
+    margin-right: 637px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #212121; 
+  }
+
+  .my-customers-list{
+    display: flex;
+  }
+  
+  .my-customers-item:not(:last-child){
+    margin-right: 30px;
+  }

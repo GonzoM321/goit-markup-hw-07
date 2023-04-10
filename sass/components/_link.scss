@@ -1,0 +1,120 @@
+.menu-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+display: block;
+padding: 32px 0;
+color: #212121;;
+transition: color 250ms cubic-bezier(0.4, 0, 0.1, 1); 
+}
+  
+.menu-link:hover,
+.menu-link:focus{
+color: var(--accent-color);
+}
+
+.contacts-link{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+padding-top: 32px;
+padding-bottom: 32px;
+display: flex;
+align-items: center;
+color: #757575;
+transition: color 250ms cubic-bezier(0.4, 0, 0.1, 1);
+}
+  
+.contacts-link:hover,
+.contacts-link:focus{
+color: var(--accent-color);
+}
+
+.features-icon-wrapper{
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+   border-radius: 4px; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 30px;
+   }
+
+.my-socials-link{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #AFB1B8; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-socials-link:hover,
+.my-socials-link:focus{
+  color: white;
+  background-color: var(--accent-color);
+}
+
+.footer-socials-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .footer-socials-link:hover,
+  .footer-socials-link:focus{
+    color: white;
+    background-color: var(--accent-color); 
+  }
+
+  .footer-address-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    }
+
+  .my-socials-icon{
+    fill: currentColor;
+    display: flex; 
+  }
+  
+  .my-customers-link{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.1, 1);
+  }
+  
+  .my-customers-link:hover,
+  .my-customers-link:focus{
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
+  
+  .my-customers-icon{
+    fill: currentColor;
+  }
