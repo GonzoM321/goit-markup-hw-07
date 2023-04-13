@@ -12,10 +12,14 @@ display: flex;
 margin-left: auto;
 }
 
-.header-item-link:hover,
-.header-item-link:focus{
-color: var(--accent-color);
-}
+.menu {
+    display: flex; 
+  }
+
+// .header-item-link:hover,
+// .header-item-link:focus{
+// color: $accent-color;
+// }
 
 .header-logo{
   
@@ -24,7 +28,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: calc(31/26);
 letter-spacing: 0.03em;
-color: var(--accent-color);
+color: $accent-color;
 }
   
 .header-item{
@@ -35,7 +39,12 @@ left: 457px;
 top: 32px;
 line-height: 1.14px;
 letter-spacing: 0.02em;
-color: var(--accent-color);
+color: $accent-color;
+
+&:hover,
+&:focus{
+color: $accent-color;
+}
 }
   
 .header-ite{
@@ -53,7 +62,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em;
-color: var(--primary-text-color); 
+color: $primary-text-color; 
 }
 
 .header-title{
@@ -74,8 +83,18 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em;
-color: var(--secondary-text-color); 
+color: $secondary-text-color; 
 }
+
+.icon-s{
+    margin-right: 10px;
+    fill: currentColor;   
+   }
+
+  .icon{
+   fill: currentColor;
+   margin-right: 10px;
+   }
 
 
 

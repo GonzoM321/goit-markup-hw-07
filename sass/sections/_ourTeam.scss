@@ -7,11 +7,11 @@
     text-align: center;
     letter-spacing: 0.02em;
     margin-bottom: 50px;
-    color: var(--primary-text-color);  
+    color: $primary-text-color;  
   }
   
   .team-section{
-    background-color: var(--light-bg-color);
+    background-color: $light-bg-color;
   }
   
   .team-item{
@@ -41,7 +41,7 @@
     letter-spacing: 0.02em;
     margin-top: 30px;
     margin-bottom: 10px;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     }
   
     .team-title-position{ 
@@ -51,7 +51,7 @@
       text-align: center;
       letter-spacing: 0.02em;
       margin-bottom: 30px;
-      color: var(--secondary-text-color);
+      color: $secondary-text-color;
       
     }
 
@@ -63,7 +63,7 @@
       letter-spacing: 0.02em;
       margin-top: 30px;
       margin-bottom: 10px;
-      color: var(--primary-text-color); 
+      color: $primary-text-color; 
     }
                   
     .team-title-position-1{
@@ -84,7 +84,7 @@
       letter-spacing: 0.02em;
       margin-top: 30px;
       margin-bottom: 10px;
-      color: var(--primary-text-color); 
+      color: $primary-text-color; 
     }
                   
     .team-title-position-2{
@@ -94,7 +94,7 @@
       text-align: center;
       letter-spacing: 0.03em;
       margin-bottom: 30px;
-      color: var(--secondary-text-color);  
+      color: $secondary-text-color;  
     }
 
     .team-item-title-3{
@@ -105,7 +105,7 @@
       letter-spacing: 0.03em;
       margin-top: 30px;
       margin-bottom: 10px;
-      color: var(--primary-text-color); 
+      color: $primary-text-color; 
     }
                   
     .team-title-position-3{
@@ -116,5 +116,21 @@
       text-align: center;
       letter-spacing: 0.03em;
       margin-bottom: 30px;
-      color: var(--secondary-text-color);  
+      color: $secondary-text-color;  
+    }
+
+    .my-social-list{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .my-social-item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .my-social-item:not(:last-child){
+      margin-right: 10px;
     }

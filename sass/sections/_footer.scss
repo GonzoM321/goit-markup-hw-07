@@ -5,7 +5,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 margin-bottom: 9px;
-color: var(--accent-color);
+color: $accent-color;
 display: block; 
 }
 
@@ -70,7 +70,7 @@ text-transform: uppercase;
 
 .footer-submit{
   padding: 10px 48px 10px 48px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: white;
@@ -86,3 +86,50 @@ text-transform: uppercase;
   margin-left: 12px;
   cursor: pointer;
 }
+
+.footer-social-list{
+  display: flex;
+  margin-top: 20px;
+}
+
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* visibility: visible; */
+
+}
+
+.is-hidden{
+  visibility: hidden;
+}
+
+.modal-close-btn-icon{
+  fill: currentColor;
+  }
+  
+
+  .checkbox-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $secondary-text-color;
+  }
+
+  .checkbox-icon{
+    fill: white;
+  }
+  
+  .modal-checkbox:checked + .checkbox-text >.checkbox-icon-wrapper{
+    background-color: $accent-color;
+    border: none;
+  }
