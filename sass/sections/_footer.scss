@@ -9,6 +9,17 @@ color: $accent-color;
 display: block; 
 }
 
+.footer-address-link{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  }
+
 .footer-address{
 font-style: normal;
 }
@@ -133,3 +144,10 @@ text-transform: uppercase;
     background-color: $accent-color;
     border: none;
   }
+
+  .footer-contacts-link{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--light-bg-color);
+    background: var(--dark-bg-color); 
+    }
