@@ -146,8 +146,51 @@ text-transform: uppercase;
   }
 
   .footer-contacts-link{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: var(--light-bg-color);
-    background: var(--dark-bg-color); 
-    }
+   padding-top: 60px;
+   padding-bottom: 60px;
+   background-color: $light-bg-color;
+   background: $dark-bg-color; 
+  }
+
+  .find{  
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: white;
+  }
+
+  .footer-container{
+  display: flex;
+  align-items: baseline;
+  }
+
+  .footer-icon-sent{
+  position: relative;
+  left: 83.31%;
+  right: 15.19%;
+  margin-top: 30px;
+  margin-left: -300px;
+  color: white;
+  fill: white;
+  }
+
+  .checkbox-icon-wrapper{
+    width: 15px;
+    height: 15px;
+    border: 1px solid $primary-text-color;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+  }
+
+   // .modal-icon{
+  //   position: absolute;
+  //   top: 12px;
+  //   left: 12px;
+  //   fill: $primary-text-color;
+  // }
+
+      
