@@ -19,16 +19,29 @@
     margin-bottom: 50px;
    }
 
-  //  .image-overlay{
-  //   position: absolute;
-  //   background-color: rgba(47, 48, 58, 0.8);;
-  //   color: white;
-  //   width: 100%;
-  //   bottom: 0;
-  //   padding-top: 27px;
-  //   padding-bottom: 27px;
-  //   display: flex;
-  //   justify-content: center;
-  // }
+   .list-item-not-first-child{
+    margin-left: 30px;
+    position: relative
+  }
 
+  .list-item-not-last-child{
+    margin-left: 30px;
+    position: relative
+  }
+
+   .image-overlay{
+    position: absolute;
+    background-color: rgba(47, 48, 58, 0.8);;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .list-item-margin{
+    position: relative;
+  }
    
